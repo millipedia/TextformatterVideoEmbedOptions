@@ -125,10 +125,6 @@ class TextformatterVideoEmbedOptions extends Textformatter implements Configurab
 					$extended_line .= "&".substr($key, 3)."=$value";
 				}
 			}
-
-			// stephen - hard code dnt=1 for vimeo
-			$extended_line .= "&dnt=1";
-
 			$str = str_replace($line, $extended_line, $str); 
 		}
 	}
