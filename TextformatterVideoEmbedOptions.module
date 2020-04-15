@@ -135,8 +135,6 @@ class TextformatterVideoEmbedOptions extends Textformatter implements Configurab
 
 
 
-
-
 	/**
 	 * Module configuration screen
 	 *
